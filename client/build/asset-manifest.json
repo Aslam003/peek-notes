@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1ec6273f.chunk.js",
+    "main.js.map": "/static/js/main.1ec6273f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8b707930.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8b707930.js.map",
+    "static/css/2.dc74faa5.chunk.css": "/static/css/2.dc74faa5.chunk.css",
+    "static/js/2.ce6d50e7.chunk.js": "/static/js/2.ce6d50e7.chunk.js",
+    "static/js/2.ce6d50e7.chunk.js.map": "/static/js/2.ce6d50e7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c472ed3f98cc24a8ad02c221ec9c6de8.js": "/precache-manifest.c472ed3f98cc24a8ad02c221ec9c6de8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.dc74faa5.chunk.css.map": "/static/css/2.dc74faa5.chunk.css.map",
+    "static/js/2.ce6d50e7.chunk.js.LICENSE.txt": "/static/js/2.ce6d50e7.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b707930.js",
+    "static/css/2.dc74faa5.chunk.css",
+    "static/js/2.ce6d50e7.chunk.js",
+    "static/js/main.1ec6273f.chunk.js"
+  ]
+}

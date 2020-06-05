@@ -1,0 +1,186 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+body{
+    /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
+    position: relative;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+
+header{
+    background-color: #6886c5;
+    width: 100%;
+    margin: auto;
+    padding: 10px 5px 10px 10px;
+    color: #eeeeee;
+    box-shadow: 3px 4px 8px  rgba(22,22,29,.5);    
+}
+
+
+.userAccountIcon{
+    margin: 5px 5px;
+    float: left;
+    top:6px;
+    left: 10px;
+    color: #eeeeee;
+    transform: scale(1.7);
+}
+
+
+.userAccountIcon:hover{
+    color: #44619b;
+}
+
+
+header h1{
+    text-align: right;
+    color: #ffe0ac;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.account-name{
+    position: absolute;
+    top:20px;
+    cursor :pointer;
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffe0ac;
+}
+
+
+.inputForm{
+    position: sticky;
+    text-align: center;
+    border-radius: 20px;
+    padding:5px 10px;
+    width: 480px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(22, 22, 29, 0.4), -1px -1px 2px rgba(22, 22, 29, 0.4) ;
+}
+
+
+.inputForm button, .modal-notes-button{
+    transform: scale(1.4);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: #ffacb7;
+    border-radius: 50%;
+}
+.delButton{
+    float:right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+    color: #ffacb7;
+}
+.delButton:hover,.inputForm button:hover,.modal-notes-button:hover{
+    color: black;
+}
+
+.inputForm input, .inputForm textarea{
+    background-color: #fff;
+    resize: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1px 0;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.modal input, .modal textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.added-notes{
+    padding-bottom: 40px;
+    margin: 30px 40px 0px;
+}
+
+.User-Logins{
+    position: relative;
+    margin :40px auto 30px;
+    padding: 15px 10px;
+    width: 320px;
+    font-size: 1.3rem;
+    font-weight: 200;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(22, 22, 29, 0.5),-2px -2px 5px rgba(22,22,29,0.5) ;   
+}
+
+
+.User-Logins input{
+    position: relative;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 8px auto;
+    outline: none;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 1rem;
+    border: none;
+    list-style: block;
+    box-shadow: -1px -1px 3px whitesmoke;  
+}
+.signup-form{
+    padding-bottom: 40px;
+}
+
+.register-text{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2px;
+}
+
+
+.social-buttons Button{
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.signup-headings{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left:0;
+    padding-top: 10px;
+    background-color: #6886c5;
+    color: #ffe0ac;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+footer p{
+    margin: 0;
+}
+
+
+
+@media (max-width:480px ){
+    .inputForm{
+        width: 280px;
+    }
+}
